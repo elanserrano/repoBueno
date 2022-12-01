@@ -1,0 +1,12 @@
+h1 {
+  color: rgb(0, 13, 255);
+}
+body{
+  padding: 50px;
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: mistyrose;
+}
+
+a{
+  color: #00B7FF;
+}
