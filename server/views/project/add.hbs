@@ -17,6 +17,8 @@
                             type="text" 
                             name="name" 
                             id="project-name"
+                            value= "{{project.name}}"
+                            required
                             />
                             {{#if errorModel.nameError}}
                             <span style="color:red;"> 🚩 {{errorModel.nameError}}</span>
@@ -30,7 +32,8 @@
                                  name="description"
                                  class="materialize-textarea"
                                  id="project-description"
-                                 ></textarea>
+                                 required
+                                 >{{project.description}}</textarea>
                                  {{#if errorModel.descriptionError}}
                                 <span style="color:red;"> 🚩 {{errorModel.descriptionError}}</span>
                                 {{/if}}
